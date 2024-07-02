@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(11, 58, 43);
+}
+
+.header {
+    background-color: #333;
+    color: #7a6347;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header .titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.mes {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.mes h2 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.dia-semana {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ccc; 
+    padding: 5px 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.dia {
+    width: calc(100% / 7);
+    text-align: center;
+    font-weight: bold; 
+    color: #27921d;
+}
+
+.dias {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    padding: 10px;
+}
+
+.dias .dia {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.dias .dia:nth-child(7n), .dias .dia:nth-child(7n+1) {
+    color: #573713;
+    font-weight: bold;
+    background-color: #e9f5ff;
+}
+
+.card1{
+    background-color: rgb(88, 80, 60);
+    padding: 20px;
+}
